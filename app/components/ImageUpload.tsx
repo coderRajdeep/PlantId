@@ -16,7 +16,7 @@ export default function ImageUpload({ setPlantInfo, setImageUrl }: ImageUploadPr
     setLoading(true)
 
     try {
-      const apiKey = 'AIzaSyBMmaBLlzS3VUp8hNrF9Vj4rNSLLutxM7s'
+      const apiKey = 'AIzaSyBMmaBLlzS3VUp8hNrF9Vj4rN9Q9Q9Q9Q9'
       if (!apiKey) {
         throw new Error('Google Gemini API key is not set')
       }
