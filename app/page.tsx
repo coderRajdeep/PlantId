@@ -58,8 +58,8 @@ export default function Home() {
         <div className="bg-green-800 flex flex-col items-center justify-center p-8 text-white">
         
           <h1 className="text-4xl font-bold mb-4">Plant Identifier</h1>
-          <Image src={gif} alt="Plant" className="w-32 h-32 absolute left-20" />
-          <Image src={gif} alt="Plant" className="w-32 h-32 absolute right-20" />
+          {/* <Image src={gif} alt="Plant" className="w-32 h-32 absolute left-20" />
+          <Image src={gif} alt="Plant" className="w-32 h-32 absolute right-20" /> */}
           <p className="text-center mb-8 max-w-md">
             Discover the wonders of nature! Upload an image of a plant, and let
             our AI identify it for you.
