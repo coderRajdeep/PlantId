@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Header() {
   return (
-    <header className="bg-green-800 text-white p-4">
+    <header className="bg-green-900 text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold hover:text-green-200">PlantID</Link>
         <nav>

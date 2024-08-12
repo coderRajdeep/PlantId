@@ -26,7 +26,7 @@ export default function Contact() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-grow bg-green-50 p-8">
+      <main className="flex-grow bg-green-800 p-8">
         <div className="max-w-lg mx-auto bg-white rounded-2xl shadow-lg overflow-hidden md:max-w-2xl">
             <div className="md:flex">
             <div className="p-8 w-full">
@@ -41,7 +41,7 @@ export default function Contact() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="mt-2 block w-full rounded-lg border border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500 p-3 text-gray-900"
+                    className="mt-2 block w-full rounded-lg border border-gray-700 shadow-sm focus:border-green-500 focus:ring-green-500 p-3 text-gray-900"
                     />
                 </div>
                 <div className="flex flex-col">
@@ -53,7 +53,7 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="mt-2 block w-full rounded-lg border border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500 p-3 text-gray-900"
+                    className="mt-2 block w-full rounded-lg border border-gray-700 shadow-sm focus:border-green-500 focus:ring-green-500 p-3 text-gray-900"
                     />
                 </div>
                 <div className="flex flex-col">
@@ -65,7 +65,7 @@ export default function Contact() {
                     value={formData.message}
                     onChange={handleChange}
                     required
-                    className="mt-2 block w-full rounded-lg border border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500 p-3 text-gray-900"
+                    className="mt-2 block w-full rounded-lg border border-gray-700 shadow-sm focus:border-green-500 focus:ring-green-500 p-3 text-gray-900"
                     ></textarea>
                 </div>
                 <div>
